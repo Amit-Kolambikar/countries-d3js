@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D3</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container-fluid">
+    <div class="row ">
+        <div class="col-sm-12">
+            <h2 class="text-left">Hover to display Country Names , Zoom In</h2>
+            <button class=" text-right btn btn-default btn-primary" id="fs">Go in Fullscreen Mode</button>
+        </div>
+    </div>
+    <div id="container"></div>
+    <div class="container" id="latlon"></div>
+    <script src="d3.min.js"></script>
+    <script src="screenfull.min.js"></script>
+    <script src="topojson.v1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
